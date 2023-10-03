@@ -59,6 +59,12 @@ li {
   color: #000;
   background-color: #fff;
   line-height: 30px;
+  margin-bottom: 5px;
+  transition: opacity 5s ease;
+}
+
+span {
+  font-weight: 700;
 }
 
 .button {
@@ -83,4 +89,12 @@ li {
 
 .button-delete {
   background-color: rgb(209, 93, 93);
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.fade-out {
+  opacity: 0;
 }
