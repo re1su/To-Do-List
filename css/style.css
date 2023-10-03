@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  background-color: rgb(36, 34, 32);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 600px;
+  height: 300px;
+  border-radius: 14px;
+  
+}
+
+h1 {
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+#title {
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+#createBtn {
+  padding: 7px 0px;
+  border-radius: 6px;
+  background-color: rgb(36, 34, 32);
+  border: 1px solid rgb(255, 255, 255);
+  color: white;
+  cursor: pointer;
+  margin-bottom: 14px;
+  transition: transform 0.1s;
+}
+
+#createBtn:active {
+  transform: translateY(1px);
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 8px;
+  border-radius: 6px;
+  list-style-type: none;
+  color: #000;
+  background-color: #fff;
+  line-height: 30px;
+}
+
+.button {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.07s;
+}
+
+.button:active {
+  transform: translateY(1px);
+}
+
+.button-check {
+  background-color: rgb(88, 138, 88);
+}
+
+.button-delete {
+  background-color: rgb(209, 93, 93);
+}
